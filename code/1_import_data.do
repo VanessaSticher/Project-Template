@@ -9,8 +9,7 @@
 ************************************************************************************************************************
 
 *Import data
-sysuse auto		//Hint: I use the auto example dataset for demonstration purpose. Usually this looks like:
-//import delimited "$raw/myfirstdataset.csv", clear
+import delimited "$raw/auto.csv", clear //Hint: I use the auto example dataset for demonstration purpose
 
 
 ***Here are a few examples code snippeds you might find useful
