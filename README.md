@@ -1,8 +1,8 @@
 # Project-Template
-This repo provides a guide for project organization with a template for quantitative research projects. The guide is based on my personal experience working as a research assistant in economics. It aims at being a starting point for people new to quantitative research projects. It does not claim to be the only or best way to oragnize a project -- it is just one example.
+This repo provides a template for quantitative research projects: a folder structure with example files. It aims to serve as a starting point for projects -- a term paper, a Bachelor's or Master's thesis, or any other quantitative research project. It is not a guide on how to work with code and data -- but it can be used to start when working following a fuide. A comprehensive guide for working with code and data is, for example, Gentzkow and Shapiro's guide: [Code and Data for the Social Sciences: A Practitioner’s Guide](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf).
 
 ## Project Structure
-
+This section provides an overview of the project structure and briefly explains the different parts. This is the folder structure:
 
 ```
  ├── MYPROJECT
@@ -18,6 +18,11 @@ This repo provides a guide for project organization with a template for quantita
     ├── └── tables          # Folder contains all figures created as part of the project
     └── master.do           # File runs all code in the `code` folder. The master file can be a Stata do-file, R script, Python file, or a bash script.
 ```
+
+Depending on the scope of a project, subfolders are useful or even necessary. For example, if you have a lot of code, you might want to have subfolders in `code`, e.g. `code/cleaning` and `code/analysis`. Or if you have a project with many parts, you might want to have a subfolder for each part in the `code` folder, the data folders, and the output folders, e.g. `code/experiment_1`, `raw/experiment_1`, `working/experiment_1` etc. 
+
+## Usage
+
 
 ### Archive
 The `archive` folder is the folder, in which you throw everything you think you will no need anymore (but you are not sure enough to delete it). An archive folder is not necessary, but in my experience useful to prevent having many old versions of code and data in the `code` and `data` folders (especially if you do not have a good system for version control).
@@ -51,10 +56,7 @@ I provide a template in a zip format: `project_template.zip`. The zip file conta
 
 ### Add Code
 
-## Working on the Project
 
-## Replication
 
 ## Future
-Talk about version control
 Alternatives for master files: R, Python, bash
