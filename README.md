@@ -1,4 +1,4 @@
-# Project-Organization
+# Project-Template
 This repo provides a guide for project organization with a template for quantitative research projects. The guide is based on my personal experience working as a research assistant in economics. It aims at being a starting point for people new to quantitative research projects. It does not claim to be the only or best way to oragnize a project -- it is just one example.
 
 ## Project Structure
