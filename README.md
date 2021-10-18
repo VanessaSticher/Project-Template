@@ -13,25 +13,25 @@ This section outlines the basic folder structure. Folders in bold will be create
     ├── code                # Folder for all code    
     ├── data
     │   ├── raw             # Folder for raw data: copy raw data into this folder
-    │   └── _working_       # Folder for data that is generated from code (do not manually copy or edit data in this folder!)
+    │   └── working         # Folder for data that is generated from code (do not manually copy or edit data in this folder!)
     ├── draft               # Folder containts the draft(s)
     ├── literature          # Folder containts all literature
-    ├── _output_
-    │   ├── _figures_       # Folder contains all figures created as part of the project
-    ├── └── _tables_        # Folder contains all figures created as part of the project
+    ├── output
+    │   ├── figures         # Folder contains all figures created as part of the project
+    ├── └── tables          # Folder contains all figures created as part of the project
     └── master.do           # File runs all code in the `code` folder. The master file can be a Stata do-file, R script, Python file, or a bash script.
 ```
 
-Depending on the scope of a project, subfolders are useful or even necessary. For example, if you have a lot of code, you might want to have subfolders in `code`, e.g. `code/cleaning` and `code/analysis`. Or if you have a project with many parts, you might want to have a subfolder for each part in the `code` folder, the data folders, and the output folders, e.g. `code/experiment_1`, `raw/experiment_1`, `working/experiment_1` etc. 
+Depending on the scope of a project, subfolders are useful or even necessary. For example, if you have a lot of code, you might want to have subfolders in `code`, e.g. `code/cleaning`, `code/build`, and `code/analysis`. Or if you have a project with many parts, you might want to have a subfolder for each part in the `code`, data, and `output` folders, e.g. `code/experiment_1`, `raw/experiment_1`, `working/experiment_1` etc. 
 
 ### Archive
-The `archive` folder is the folder, in which you throw everything you think you will no need anymore (but you are not sure enough to delete it). An archive folder is not necessary, but in my experience useful to prevent having many old versions of code and data in the `code` and `data` folders (especially if you do not have a good system for version control).
+The `archive` folder is the folder, in which you throw everything you think you will no need anymore, but you are not sure enough to delete it. An archive folder is not necessary, but in my experience useful to prevent having many old versions of code and data in the `code` and `data` folders (especially if you do not have a good system for version control).
 
 ### Code
 The `code` contains all code. For large projects, subfolders can be useful. For example, a project with multiple experiments might have a subfolder for each experiment.
 
 ### Data
-The `data` folder has two subfolders: `raw` and `working`, which each can have subfolders. I try to have the same subfolders in `raw` and `working` as in code. For example, the  project with multiple experiments might have the raw data of experiment 1 in a `raw/experiment1`, the cleaned data in `working/experiment1` (and the code that creates the clean data from the raw data in `code/experiment1`).
+The `data` folder has two subfolders: `raw` and `working`, which each can have subfolders.
 
 ### Draft
 ### Literature
