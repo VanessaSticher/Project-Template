@@ -1,0 +1,143 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2021.10.14)  18 OCT 2021 12:29
+entering extended mode
+**./draft.tex
+(draft.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27>
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/base\size10.clo
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-pdftex
+.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count190
+\l__pdf_internal_box=\box50
+) (draft.aux)
+\openout1 = `draft.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen141
+\scratchbox=\box51
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen142
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks20
+)
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\epstopdf-base
+.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\vanes\AppData\Roaming\MiKTeX\2.9\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+ (../output/tables/myfirsttable.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+<../output/figures/myfirstfigure.png, id=1, 872.25874pt x 634.37pt>
+File: ../output/figures/myfirstfigure.png Graphic file (type png)
+<use ../output/figures/myfirstfigure.png>
+Package pdftex.def Info: ../output/figures/myfirstfigure.png  used on input lin
+e 29.
+(pdftex.def)             Requested size: 258.75pt x 188.18292pt.
+ [1
+
+{C:/Users/vanes/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../output/f
+igures/myfirstfigure.png (PNG copy)>]
+(draft.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1256 strings out of 480871
+ 19986 string characters out of 2903878
+ 641321 words of memory out of 3000000
+ 18898 multiletter control sequences out of 15000+600000
+ 407070 words of font info for 39 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 57i,8n,66p,184b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/vanes/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Users/vanes/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/vanes/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/vanes/AppData/Roaming/MiKTeX/2.9/fonts/type1/public
+/amsfonts/cm/cmr17.pfb>
+Output written on draft.pdf (1 page, 77936 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

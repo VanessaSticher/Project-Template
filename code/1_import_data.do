@@ -9,7 +9,7 @@
 ************************************************************************************************************************
 
 *Import data
-import delimited "$raw/auto.csv", clear //Hint: I use the auto example dataset for demonstration purpose
+import delimited "$raw/auto.csv", clear	//I use the auto example dataset for demonstration purpose
 
 
 ***Here are a few examples code snippeds you might find useful
