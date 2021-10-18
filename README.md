@@ -5,6 +5,7 @@ This repo provides a template for empirical research projects: a folder structur
 Download the zip file `project_template.zip` and unzip in your main project folder. Store all your input data in `data/raw` and you code in `code`. Add folders and files according to needs. 
 
 ## Project Structure
+### Overview
 This is the basic folder structure:
 
 ```
@@ -19,30 +20,31 @@ This is the basic folder structure:
     ├── output
     │   ├── figures         # Folder for figures created during the project
     ├── └── tables          # Folder for tables created during the project
-    └── master.do           # File to run all code in the `code` folder
+    └── master.sh           # (alternatively masterFile to run all code in the `code` folder
 ```
 The folders `archive`, `code`, `data/raw`, `draft`, and `literature` are permanent, while the folders `data/working` and `output` (and its subfolders) will be created during the project.
 
 Depending on the scope of a project, subfolders are useful or even necessary. For example, if you have a lot of code, you might want to have subfolders in `code`, e.g. `code/cleaning`, `code/build`, and `code/analysis`. Or if you have a project with many subprojects, you might want to have a subfolder for each subproject in the `code`, data, and `output` folders, e.g. `code/experiment_1`, `raw/experiment_1`, `working/experiment_1` etc. 
 
-### Archive
+### Details
+#### Archive
 The `archive` folder is the folder, in which you throw everything you think you will no need anymore, but you are not sure enough to delete it. An archive folder is not necessary, but in my experience useful to prevent having many old versions of code and data in the `code` and `data` folders (especially if you do not have a good system for version control).
 
-### Code
-The `code` contains all code. For large projects, subfolders can be useful. For example, a project with multiple experiments might have a subfolder for each experiment.
+#### Code
+The `code` contains all code. For large projects, subfolders can be useful.
 
-### Data
+#### Data
 The `data` folder has two subfolders: `raw` and `working`, which each can have subfolders.
 
-### Draft
-### Literature
-### Output
-### master.do
-The `master` file runs everything. In a first step, it deletes the folders `data/working` and `output`. In a second step, it creates these folders as empty folders and runs all code. The master file can be a Stata do-file, R script, Python file, or a bash script.
+#### Draft
+The `draft` folder contains the draft(s). The template includes a .tex draft.
 
+#### Literature
+The `literature` folder contains the bibliogrpahy file and it can contain PDFs relevant literature.
 
+#### Output
+The `output` folder has two subfolders: `tables` and `figures`.
 
+#### master.sh
+The `master` file runs all code. In a first step, it deletes the folders `data/working` and `output` and created these folders as empty folders. In a second step, it runs all code. The master file can be a bash script, a Stata do-file, an R script, a Python file etc.
 
-
-## Future
-Alternatives for master files: R, Python, bash
