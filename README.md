@@ -20,11 +20,11 @@ This is the basic folder structure:
     ├── output
     │   ├── figures         # Folder for figures created during the project
     ├── └── tables          # Folder for tables created during the project
-    └── master.sh           # (alternatively masterFile to run all code in the `code` folder
+    └── master.sh           # File to run all code
 ```
 The folders `archive`, `code`, `data/raw`, `draft`, and `literature` are permanent, while the folders `data/working` and `output` (and its subfolders) will be created during the project.
 
-Depending on the scope of a project, subfolders are useful or even necessary. For example, if you have a lot of code, you might want to have subfolders in `code`, e.g. `code/cleaning`, `code/build`, and `code/analysis`. Or if you have a project with many subprojects, you might want to have a subfolder for each subproject in the `code`, data, and `output` folders, e.g. `code/experiment_1`, `raw/experiment_1`, `working/experiment_1` etc. 
+Depending on the scope of a project, subfolders are useful or even necessary. For example, if you have a lot of code, you might want to have subfolders in `code`, e.g. `code/cleaning`, `code/build`, and `code/analysis`. Or if you have a project with many subprojects, you might want to have a subfolder for each subproject in the `code`, data, and `output` folders, e.g. `code/experiment1`, `raw/experiment1`, `working/experiment1` etc. 
 
 ### Details
 #### Archive
