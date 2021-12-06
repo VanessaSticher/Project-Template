@@ -14,12 +14,12 @@
 
 % ============================== CHAPTER 1 ============================== %
 \section{My First Chapter}
-This chapter displays my first table and my first figure. They are based on Stata's auto dataset, see \citet{stata_press_datasets_2021}.
+This chapter displays my first table, Table~\ref{tab:myfirsttable}, and my first figure, Figure~\ref{fig:myfirstfigure}. They are based on Stata's auto dataset, see \citet{stata_press_datasets_2021}.
 
 % My First Table
 \begin{table}[!ht]
-\label{myfirsttable}
 \caption{My First Table}
+\label{tab:myfirsttable}
 \centering
 	\input{../output/tables/myfirsttable.tex}
 \begin{tablenotes}
@@ -29,8 +29,8 @@ This chapter displays my first table and my first figure. They are based on Stat
 
 % My First Figure
 \begin{figure}[!ht]
-\label{myfirstfigure}
 \caption{My First Figure}
+\label{fig:myfirstfigure}
 \centering
 	\includegraphics[width=0.75\textwidth]{../output/figures/myfirstfigure.png}
 \begin{tablenotes}
