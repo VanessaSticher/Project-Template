@@ -6,9 +6,9 @@ rm -r data/output
 
 # Create empty folders: data/working and output
 mkdir data/working
-mkdir data/output
-mkdir data/output/tables
-mkdir data/output/figures
+mkdir output
+mkdir output/tables
+mkdir output/figures
 
 # Run code
 stata-mp -e do "code/0_settings.do"
